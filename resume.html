@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marriage CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+    <style>
+        body {
+            margin-top: 10px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(90deg, #FDCB06, #FF5757);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            margin: 20;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Add this CSS for social media icon hover effect */
+.social-media a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #FF5757;
+    font-size: 24px;
+    transition: color 0.3s; /* Add transition for color change */
+}
+
+.social-media a:hover {
+    color: #FF0000; /* Change color on hover */
+}
+
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .cv {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .name {
+            font-size: 36px;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        .photo {
+            max-width: 150px;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 5px solid #FF5757;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #444;
+        }
+
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #FF5757;
+            font-size: 24px;
+        }
+
+        .section {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        .section:hover {
+            background-color: #fcdfdf;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #FF5757;
+        }
+
+        .section-content {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #444;
+            font-size: 14px;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .photo-gallery img {
+            max-width: 100px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv">
+        <div class="header">
+            <img class="photo" src="saimul.jpeg" alt="Your Photo">
+            <div class="name">John Doe</div>
+            <div class="contact-info">
+                Email: saimulhoque8214@gmail.com | Phone: +8801881269553
+            </div>
+
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            
+        </div>
+
+        <div class="section">
+            <div class="section-title">Personal Information</div>
+            <div class="section-content">
+                <p><strong>Date of Birth:</strong> 31 May 1999</p>
+                <p><strong>Height:</strong> 5' 8" (173 cm)</p>
+                <p><strong>Marital Status:</strong> Never Married</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Family Information</div>
+            <div class="section-content">
+                <p><strong>Parents:</strong> Md Sanaullah, Nazma Begum</p>
+                <p><strong>Siblings:</strong> Md Samiul Hoque, Md Nasimul Hoque</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Educational Background</div>
+            <div class="section-content">
+                <p><strong>Bachelor's Degree:</strong> Bangladesh University of Business & Technology, 2024</p>
+                <p><strong>Diploma In Engineering:</strong> Shyamoli Ideal Polytechnic Institute, 2020</p>
+                
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Career and Employment</div>
+            <div class="section-content">
+                <p><strong>Occupation:</strong> Graphics Designer</p>
+                <p><strong>Employer:</strong> Forbit Limited</p>
+                <p><strong>Work Location:</strong> Dhaka</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Religious and Cultural Information</div>
+            <div class="section-content">
+                <p><strong>Religion:</strong> Islam</p>
+                <p><strong>Cultural Background:</strong> Bengali</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Personality Traits</div>
+            <div class="section-content">
+                <p>Describe your personality traits and qualities here.</p>
+            </div>
+        </div>
+
+        <!-- <div class="section">
+            <div class="section-title">Desired Partner Preferences</div>
+            <div class="section-content">
+                <p>Describe the qualities and attributes you are looking for in a potential spouse.</p>
+            </div>
+        </div> -->
+<!-- 
+        <div class="section">
+            <div class="section-title">Contact References</div>
+            <div class="section-content">
+                <p><strong>Reference 1:</strong> Name, Phone, Email</p>
+                <p><strong>Reference 2:</strong> Name, Phone, Email</p>
+            </div>
+        </div> -->
+
+        <div class="photo-gallery">
+            <a data-fancybox="gallery" href="saimul.jpeg"><img src="saimul.jpeg" alt="Gallery Photo 1"></a>
+            <a data-fancybox="gallery" href="saimul.jpeg"><img src="saimul.jpeg" alt="Gallery Photo 2"></a>
+            <a data-fancybox="gallery" href="saimul.jpeg"><img src="saimul.jpeg" alt="Gallery Photo 3"></a>
+            <a data-fancybox="gallery" href="saimul.jpeg"><img src="saimul.jpeg" alt="Gallery Photo 2"></a>
+            <a data-fancybox="gallery" href="saimul.jpeg"><img src="saimul.jpeg" alt="Gallery Photo 3"></a>
+        </div>
+        
+
+        <div class="footer">
+            Generated by Marriage CV Maker
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $("[data-fancybox]").fancybox({
+                buttons: [
+                    "zoom",
+                    "slideShow",
+                    "fullScreen",
+                    "thumbs",
+                    "close"
+                ],
+                loop: false
+            });
+        });
+    </script>
+
+
+</body>
+</html>
